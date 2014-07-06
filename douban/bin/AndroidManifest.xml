@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cn.itcast.douban"
+    android:versionCode="1"
+    android:versionName="1.0.1" >
+
+    <uses-sdk android:minSdkVersion="8" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <activity
+            android:label="@string/app_name"
+            android:name=".SplashActivity" 
+            android:theme="@android:style/Theme.NoTitleBar"
+            >
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="@string/my_douban"
+            android:name=".MainTabActivity" >
+        </activity>
+        <activity
+            android:label="@string/my_douban"
+            android:name=".MeActivity" >
+        </activity>
+        <activity
+            android:label="@string/my_douban"
+            android:name=".TestActivity1" >
+        </activity>
+        <activity 
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:label="@string/login"
+            android:name=".LoginInActivity"
+            ></activity>
+    </application>
+
+</manifest>

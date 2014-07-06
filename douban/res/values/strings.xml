@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, MainTabActivity!</string>
+    <string name="app_name">Douban</string>
+    <string name="my_douban">我的豆瓣</string>
+    <string name="login">用户登陆</string>
+
+</resources>
